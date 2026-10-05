@@ -1,0 +1,6 @@
+packwiz.exe
+*.log
+umwandlung-bericht.txt
+instance/.minecraft/*
+!instance/.minecraft/packwiz-installer-bootstrap.jar
+release/
