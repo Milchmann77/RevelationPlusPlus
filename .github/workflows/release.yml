@@ -8,6 +8,10 @@ on:
         description: "Was ist neu? (optional, erscheint oben in den Release-Notizen)"
         required: false
         default: ""
+      ping:
+        description: "@everyone im Discord benachrichtigen"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -21,6 +25,7 @@ env:
   MENU_FILE: pack/config/CustomMainMenu/mainmenu.json
   INSTANCE_DIR: instance
   ZIP_NAME: Revelation++.zip
+  PACK_TITLE: Revelation++
 
 jobs:
   release:
@@ -96,3 +101,117 @@ jobs:
             --title "Revelation++ $VERSION" \
             --notes "$NOTES" \
             --generate-notes
+
+      - name: Discord benachrichtigen
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          VERSION: ${{ steps.version.outputs.version }}
+          NOTES: ${{ inputs.notes }}
+          PING: ${{ inputs.ping }}
+          ICON_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/pack/icon.png
+        run: |
+          set -euo pipefail
+          if [ -z "${DISCORD_WEBHOOK:-}" ]; then
+            echo "::warning::Secret DISCORD_WEBHOOK fehlt - keine Discord-Nachricht gesendet."
+            exit 0
+          fi
+
+          repo_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"
+          release_url="${repo_url}/releases/tag/${VERSION}"
+
+          # --- Aenderungen seit dem letzten Release sammeln ---
+          prev="$(git describe --tags --abbrev=0 HEAD 2>/dev/null || true)"
+          added=(); removed=(); updated=(); configs=0
+
+          name_of() {
+            local n
+            n="$(git show "$1:$2" 2>/dev/null | sed -n 's/^name = "\(.*\)"$/\1/p' | head -n 1)"
+            if [ -z "$n" ]; then n="$(basename "$2" .pw.toml)"; fi
+            printf '%s' "$n"
+          }
+
+          if [ -n "$prev" ]; then
+            while IFS=$'\t' read -r status path; do
+              if [ "$path" = "$MENU_FILE" ]; then continue; fi
+              case "$path" in
+                pack/mods/*.pw.toml|pack/resourcepacks/*.pw.toml)
+                  case "$status" in
+                    A) added+=("$(name_of HEAD "$path")") ;;
+                    D) removed+=("$(name_of "$prev" "$path")") ;;
+                    M) updated+=("$(name_of HEAD "$path")") ;;
+                  esac ;;
+                pack/mods/*.jar|pack/resourcepacks/*.zip)
+                  f="$(basename "$path")"
+                  case "$status" in
+                    A) added+=("$f") ;;
+                    D) removed+=("$f") ;;
+                    M) updated+=("$f") ;;
+                  esac ;;
+                pack/config/*|pack/scripts/*|pack/resources/*)
+                  configs=$((configs + 1)) ;;
+              esac
+            done < <(git diff --name-status --no-renames "$prev" HEAD -- pack/)
+          fi
+
+          # Liste fuer Discord formatieren (max. 1024 Zeichen pro Feld)
+          fmt() {
+            local out="" n=0 total=$# item line
+            while IFS= read -r item; do
+              line="• ${item}"
+              if [ $(( ${#out} + ${#line} + 30 )) -gt 1000 ]; then
+                out+=$'\n'"… und $((total - n)) weitere"
+                break
+              fi
+              if [ -n "$out" ]; then out+=$'\n'; fi
+              out+="$line"
+              n=$((n + 1))
+            done < <(printf '%s\n' "$@" | sort -f)
+            printf '%s' "$out"
+          }
+
+          fields='[]'
+          add_field() {
+            fields="$(jq -c --arg n "$1" --arg v "$2" '. + [{name: $n, value: $v, inline: false}]' <<< "$fields")"
+          }
+
+          if [ ${#added[@]} -gt 0 ];   then add_field "➕ Neu (${#added[@]})"            "$(fmt "${added[@]}")"; fi
+          if [ ${#updated[@]} -gt 0 ]; then add_field "🔄 Aktualisiert (${#updated[@]})" "$(fmt "${updated[@]}")"; fi
+          if [ ${#removed[@]} -gt 0 ]; then add_field "➖ Entfernt (${#removed[@]})"     "$(fmt "${removed[@]}")"; fi
+          if [ "$configs" -gt 0 ];     then add_field "⚙️ Einstellungen"                  "${configs} Dateien angepasst"; fi
+          add_field "📥 Neu dabei?" "[Installationsanleitung](${repo_url}#installation)"
+
+          # --- Beschreibung ---
+          desc=""
+          if [ -n "${NOTES:-}" ]; then desc="${NOTES}"$'\n\n'; fi
+          if [ -z "$prev" ]; then desc+="Das erste Release mit automatischen Updates!"$'\n\n'; fi
+          desc+="Das Update wird beim **nächsten Start** automatisch installiert – du musst nichts tun."
+
+          content=""
+          if [ "${PING:-false}" = "true" ]; then content="@everyone"; fi
+
+          payload="$(jq -n \
+            --arg content "$content" \
+            --arg title "🚀 ${PACK_TITLE} ${VERSION} ist da!" \
+            --arg url "$release_url" \
+            --arg desc "$desc" \
+            --argjson fields "$fields" \
+            --arg icon "$ICON_URL" \
+            --arg footer "${PACK_TITLE} • Version ${VERSION}" \
+            --arg ts "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            '(if $content == "" then {} else {content: $content} end) + {
+              allowed_mentions: {parse: (if $content == "" then [] else ["everyone"] end)},
+              embeds: [{
+                title: $title,
+                url: $url,
+                description: $desc,
+                color: 3066993,
+                fields: $fields,
+                thumbnail: {url: $icon},
+                footer: {text: $footer},
+                timestamp: $ts
+              }]
+            }')"
+
+          curl -fsS -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK"
+          echo "Discord-Nachricht gesendet."
