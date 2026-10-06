@@ -1,0 +1,98 @@
+name: Release erstellen
+
+# Start per Klick: GitHub -> Actions -> "Release erstellen" -> "Run workflow"
+on:
+  workflow_dispatch:
+    inputs:
+      notes:
+        description: "Was ist neu? (optional, erscheint oben in den Release-Notizen)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+env:
+  PACK_DIR: pack
+  MENU_FILE: pack/config/CustomMainMenu/mainmenu.json
+  INSTANCE_DIR: instance
+  ZIP_NAME: Revelation++.zip
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Versionsnamen bestimmen (z. B. 26w41, zweites Release der Woche 26w41b)
+        id: version
+        run: |
+          base="$(date -u +%G | cut -c3-)w$(date -u +%V | sed 's/^0//')"
+          version="$base"
+          for s in b c d e f g h i j k l m n o p q r s t u v w x y z; do
+            git rev-parse -q --verify "refs/tags/$version" >/dev/null || break
+            version="${base}${s}"
+          done
+          if git rev-parse -q --verify "refs/tags/$version" >/dev/null; then
+            echo "::error::Keine freie Version mehr fuer $base"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "Neue Version: $version"
+
+      - name: Version in Hauptmenue und pack.toml eintragen
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          sed -i -E "s/(\"Pack Version: )[^\"]*\"/\1${VERSION}\"/" "$MENU_FILE"
+          sed -i -E "s/^version = \".*\"/version = \"${VERSION}\"/" "$PACK_DIR/pack.toml"
+          grep -q "Pack Version: ${VERSION}\"" "$MENU_FILE" || { echo "::error::'Pack Version' nicht in $MENU_FILE gefunden"; exit 1; }
+          grep -q "^version = \"${VERSION}\"" "$PACK_DIR/pack.toml" || { echo "::error::'version' nicht in pack.toml gefunden"; exit 1; }
+
+      - name: Go installieren
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+
+      - name: packwiz installieren
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: packwiz-Index aktualisieren
+        working-directory: ${{ env.PACK_DIR }}
+        run: |
+          "$(go env GOPATH)/bin/packwiz" refresh
+
+      - name: Aenderungen committen und pushen
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Release $VERSION"
+          git push
+
+      - name: Instanz-Zip bauen
+        run: |
+          cd "$INSTANCE_DIR"
+          zip -r -9 "../$ZIP_NAME" .
+
+      - name: Release erstellen
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          gh release create "$VERSION" "$ZIP_NAME" \
+            --target "$(git rev-parse HEAD)" \
+            --title "Revelation++ $VERSION" \
+            --notes "$NOTES" \
+            --generate-notes
