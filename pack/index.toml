@@ -10,7 +10,7 @@ hash = "22a9901114afdd40bc097a93507f666c214644ffb5ba3c20e85708e428599e50"
 
 [[files]]
 file = "config/CustomMainMenu/mainmenu.json"
-hash = "27dfa7e508f49d44459f6c289d191db83636762439c62d1fcd28c078355ac0de"
+hash = "9d3e9907b46530fef6699abfe0c52594557e968091fc53b2ba7ac26c516f05c8"
 
 [[files]]
 file = "config/Exoplanets/Core.cfg"
@@ -2729,7 +2729,3 @@ metafile = true
 file = "resourcepacks/matmos-2020-zen.pw.toml"
 hash = "26370f4df0e4fbc1fec104cce8f9eb3e485813f467ce048f8ba594311a60f7ed"
 metafile = true
-
-[[files]]
-file = "umwandlung-bericht.txt"
-hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
