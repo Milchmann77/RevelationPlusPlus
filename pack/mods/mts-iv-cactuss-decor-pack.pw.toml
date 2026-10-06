@@ -1,0 +1,13 @@
+name = "[MTS/IV] Cactus's Decor Pack"
+filename = "cactus_decor_pack_v16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "338b4abfee0ab7f27f192c3b3277ac1aa6db07ac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3582361
+project-id = 446263

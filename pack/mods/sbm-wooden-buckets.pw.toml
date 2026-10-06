@@ -1,0 +1,13 @@
+name = "[SBM] Wooden Buckets"
+filename = "WoodenBuckets-1.12.2-0.3.0b22.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "126b54fa903516142d044d2d03b89367d342fe64"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2747298
+project-id = 233189

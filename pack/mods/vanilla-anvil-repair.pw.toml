@@ -1,0 +1,13 @@
+name = "Vanilla Anvil Repair"
+filename = "vanillaanvilrepair-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0558898d05bf8e98f3202007fa171a0211695aa0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2943808
+project-id = 376040

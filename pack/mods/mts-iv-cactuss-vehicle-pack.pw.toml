@@ -1,0 +1,13 @@
+name = "[MTS/IV] Cactus's Vehicle Pack"
+filename = "cactus_vehicle_pack_v4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a25c64bb50f7a817bd053cdf4002e68a666265e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3666803
+project-id = 478214

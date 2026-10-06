@@ -1,0 +1,13 @@
+name = "Bedrock Breaks"
+filename = "bedrockbreaks-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70043637c2a315e589587982d3793501305477c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2565559
+project-id = 294602

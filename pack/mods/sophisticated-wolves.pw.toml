@@ -1,0 +1,13 @@
+name = "Sophisticated wolves"
+filename = "SophisticatedWolves-1.12.2-3.13.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55873227583819c02f897170c24fdd017612ffcc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2713186
+project-id = 220495

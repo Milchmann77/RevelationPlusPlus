@@ -1,0 +1,13 @@
+name = "Potato Vehicle Industries"
+filename = "Potato-vehicle-Industries-BETA2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "da93b60e7b27c4906de5d744c4b89bd5584c8e41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3813781
+project-id = 477550

@@ -1,0 +1,13 @@
+name = "Reforged"
+filename = "Reforged-0.7.9-1.12+.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa995db59bb7e5e110f4ae51d91555596a18e4c9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4363278
+project-id = 241392

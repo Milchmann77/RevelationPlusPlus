@@ -1,0 +1,13 @@
+name = "[PWIAT] Pour water into a bottle"
+filename = "classicglass-drain-1.0 - kopiya (1).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f4ff1618b840753e204524cae084c6373ab2989e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3411592
+project-id = 510904

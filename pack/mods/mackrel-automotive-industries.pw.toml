@@ -1,0 +1,13 @@
+name = "Mackrel Automotive Industries"
+filename = "mackrel_automotive_industries_TRANSITIONAL_BETA_0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9c51129f7cb7fab51c26a69d3a62436f3e2e92bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3269639
+project-id = 385792

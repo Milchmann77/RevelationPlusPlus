@@ -1,0 +1,8 @@
+name = "matmos-1.12.2-36.0.1"
+filename = "matmos-1.12.2-36.0.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/makamys/MAtmos/releases/download/v36.0.1/matmos-1.12.2-36.0.1.jar"
+hash-format = "sha256"
+hash = "5855052ca94c0bcab0799feefc5f1490f56012f8460d70e7d2b08129fcb4dfc9"

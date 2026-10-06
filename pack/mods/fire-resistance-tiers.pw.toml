@@ -1,0 +1,13 @@
+name = "Fire Resistance Tiers"
+filename = "fireresistancetiers-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e958f6c88619360de90a631045a7baec804c3de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2953279
+project-id = 382381

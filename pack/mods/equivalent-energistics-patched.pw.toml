@@ -1,0 +1,13 @@
+name = "Equivalent Energistics (LTS)"
+filename = "EquivalentEnergistics-1.12.2-PE_1.4.1-0.8.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "249855de1fbd9bd796acab53f5e90b69f86dbc1d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3454364
+project-id = 525828

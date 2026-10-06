@@ -1,0 +1,13 @@
+name = "Вращение Земли Майнкрафтская (Accurate day/night-cycles Mod)"
+filename = "B3M-1.12.2-20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5b83697b8b8f0284c15655a489f0bbb50199a0e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5376135
+project-id = 221053

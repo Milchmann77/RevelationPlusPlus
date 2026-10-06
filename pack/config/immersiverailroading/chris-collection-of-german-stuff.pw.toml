@@ -1,0 +1,13 @@
+name = "Chris' Collection of German Stuff"
+filename = "CCOGS.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d591de4722f1c8e0d34b1f953b01d3870731f9b1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2718539
+project-id = 313837

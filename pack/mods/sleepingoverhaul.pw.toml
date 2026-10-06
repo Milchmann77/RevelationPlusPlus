@@ -1,0 +1,13 @@
+name = "SleepingOverhaul"
+filename = "SleepingOverhaul-1.12.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "772233e0dcae5a4a6e4beb003abee63df76bf407"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2644723
+project-id = 297284

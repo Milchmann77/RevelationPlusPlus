@@ -1,0 +1,13 @@
+name = "Trin Civil Pack V4 - Amazing Cars and Cool Trcks"
+filename = "Trin Civil Pack-1.12.2-3.20.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8c882bfb2ff5c54571edfc335d88d0084b9ac9c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4536975
+project-id = 305830

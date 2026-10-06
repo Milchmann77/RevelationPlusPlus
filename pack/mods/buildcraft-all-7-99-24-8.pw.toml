@@ -1,0 +1,8 @@
+name = "buildcraft-all-7.99.24.8"
+filename = "buildcraft-all-7.99.24.8.jar"
+side = "both"
+
+[download]
+url = "https://mod-buildcraft.com/releases/BuildCraft/7.99.24.8/buildcraft-all-7.99.24.8.jar"
+hash-format = "sha256"
+hash = "c8b0e0ae0cd52e8217185e8e6e603d37c95158d9e3701c1dae7bb927cee6b4ec"

@@ -1,0 +1,8 @@
+name = "xujmod-2.0.8"
+filename = "xujmod-2.0.8.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/2576/320/xujmod-2.0.8.jar"
+hash-format = "sha256"
+hash = "415b2cd4564d27e018e26e5a3221f8e06df4224769502c2c66bfbd084621c83f"

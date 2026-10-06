@@ -1,0 +1,13 @@
+name = "Squeedometer"
+filename = "Squeedometer-mc1.12.x-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c99104455774214b5ea999eaa0cb95e427cbb628"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2495580
+project-id = 223359

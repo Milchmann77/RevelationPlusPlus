@@ -1,0 +1,13 @@
+name = "Sanity"
+filename = "sanity-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9aee50689a44de22d8d0d1d8a5ef86b07172cf0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2632168
+project-id = 304817

@@ -1,0 +1,13 @@
+name = "Immersive Vehicles Vanity [MTS/IV Pack]"
+filename = "IV-Vanity-1.12.2-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "145a5a8239aa5d98fea8015c7f1779dc0ec146da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4433025
+project-id = 406056

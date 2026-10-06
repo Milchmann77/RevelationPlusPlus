@@ -1,0 +1,13 @@
+name = "[Immersive Vehicles/IV/MTS] VEB Automobilwerke Schwikau Military/Civilian Tanks, Helicopters, Planes, and more!"
+filename = "Automobilwerke_Schwikau_VEB-1971_march_3nd.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bb64be1b479a9cec43cdf31f48367e77fb293c60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4438636
+project-id = 357497

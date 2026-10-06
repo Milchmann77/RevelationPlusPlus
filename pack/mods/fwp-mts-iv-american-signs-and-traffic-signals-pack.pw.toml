@@ -1,0 +1,13 @@
+name = "[FWP] MTS/IV American Signs and Traffic Signals Pack"
+filename = "AmericanSignsSignalsPack0.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8cdcde1baf500b6902a5bd22abec4f12f5ffaa2d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4172050
+project-id = 442519

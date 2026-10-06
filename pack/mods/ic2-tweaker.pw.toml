@@ -1,0 +1,13 @@
+name = "IC2 Tweaker"
+filename = "ic2-tweaker-0.2.1+build.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e3d089f7a8cd2a3c1cbb7368831d573208a0b438"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4136686
+project-id = 311846

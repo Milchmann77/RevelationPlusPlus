@@ -1,0 +1,13 @@
+name = "Immersive Vehicules - Trin Military Pack"
+filename = "Immersive Vehicles (IV) Seagull's military pack 1.7.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1c915006de9343f4d4907eaa9d5682902376acd3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2753419
+project-id = 305715

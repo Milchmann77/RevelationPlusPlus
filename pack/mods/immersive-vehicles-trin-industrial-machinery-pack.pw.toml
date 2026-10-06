@@ -1,0 +1,13 @@
+name = "Immersive Vehicles Trin Industrial Machinery Pack"
+filename = "IV_Trin_Industrial_Machinery_Pack_1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "44d180251b8ed13497554fa6c43c7d565e680ceb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2994152
+project-id = 365035

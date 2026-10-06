@@ -30,13 +30,8 @@
                 }
             ],
             "cachedVersion": "14.23.5.2855",
-            "important": true,
             "uid": "net.minecraftforge",
             "version": "14.23.5.2855"
-        },
-        {
-            "cachedName": "minecraft (jar mod)",
-            "uid": "org.multimc.jarmod.f5b1b23d-2304-4bf0-8b6b-124ecec26103"
         }
     ],
     "formatVersion": 1

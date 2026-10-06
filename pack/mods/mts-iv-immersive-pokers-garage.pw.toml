@@ -1,0 +1,13 @@
+name = "[MTS/IV] immersive Poker's Garage"
+filename = "immersive_Pokers_Garage_1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94920046d2ac066e4134e1b4e7dbbefe786fc60f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3190341
+project-id = 425922

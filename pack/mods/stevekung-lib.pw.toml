@@ -1,0 +1,13 @@
+name = "SteveKunG's Lib"
+filename = "stevekung-lib-mc1.12.2-v1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6c224c28b0bc2dc0acbb031a7ba08c40f2fcb2b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6773847
+project-id = 296019

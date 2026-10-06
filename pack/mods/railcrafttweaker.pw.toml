@@ -1,0 +1,13 @@
+name = "RailcraftTweaker"
+filename = "railcraft-tweaker-0.3.0+build.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb428e20f46d76fd08f6aa24e599b44ad22f33bc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5294398
+project-id = 321136

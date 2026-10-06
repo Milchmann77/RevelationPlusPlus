@@ -1,0 +1,13 @@
+name = "German Trains for ImmersiveRailroading Mod"
+filename = "German Trains by TrainsimTV V1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "665fa1efe7684323b12573880a214804c7c7c4d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4314835
+project-id = 626760

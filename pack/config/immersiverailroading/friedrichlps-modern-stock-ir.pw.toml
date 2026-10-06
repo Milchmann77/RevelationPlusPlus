@@ -1,0 +1,13 @@
+name = "Friedrich's Modern Stock - IR Resourcepack"
+filename = "friedrichlps-modern-stock-[v1.1]-1.12.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad0baf35a13f4925a6f7b77077799f74a233f49e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2640621
+project-id = 305148

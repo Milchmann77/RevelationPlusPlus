@@ -1,0 +1,13 @@
+name = "WaterSkin"
+filename = "waterskin-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4849590855c0c492e2c1cdc634114d6a9a86625a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3191584
+project-id = 441560

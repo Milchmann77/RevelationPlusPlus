@@ -1,0 +1,13 @@
+name = "TiffitLib"
+filename = "tiffitlib-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8ec6de0ae0ab2254d4bbdbd5cb3cf70de9f37057"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2631741
+project-id = 295414

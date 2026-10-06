@@ -1,0 +1,13 @@
+name = "The Legend of Herobrine (Outdated)"
+filename = "LegendOfHerobrine-1.12.2-0.5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "00c55719ea1462fefd91a5a8603aff6d04f7b950"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3176415
+project-id = 355910

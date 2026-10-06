@@ -1,0 +1,13 @@
+name = "TickrateChanger"
+filename = "TickrateChanger-1.0.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea67d6b7a87c3856e352574de8b19dab0b6c8749"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2482684
+project-id = 230233

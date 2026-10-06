@@ -1,0 +1,13 @@
+name = "Item Blacklist"
+filename = "ItemBlacklist-1.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1b1d44a9d8fab776efee060e4cc88b6eca05c546"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2776296
+project-id = 237226

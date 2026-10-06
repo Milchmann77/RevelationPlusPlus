@@ -1,0 +1,13 @@
+name = "Resource Reloader"
+filename = "ResourceReloader-1.0.2.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad888f770d1c6e52bc4de2bbca22daf0801656d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2623013
+project-id = 303876

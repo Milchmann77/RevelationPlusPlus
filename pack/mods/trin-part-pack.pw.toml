@@ -1,0 +1,13 @@
+name = "Immersive Vehicles Trin Part Pack"
+filename = "Trin Parts Pack-1.12.2-2.22.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf7222549449fcabcf5c95d7802eb5b28a17211d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4536933
+project-id = 309911

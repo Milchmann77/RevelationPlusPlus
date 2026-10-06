@@ -1,0 +1,13 @@
+name = "[Immersive Vehicles] Craftspeed"
+filename = "Craftspeed 1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e20573483d5cf38fcafce4fb62c019bb897a6b10"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4513313
+project-id = 513881

@@ -1,0 +1,13 @@
+name = "TESP - TheExpandedSignsPack [IV/MTS]"
+filename = "TESP-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "08a65e8d95622a6aea1fa0c6d94afcbbae7db88d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3131621
+project-id = 333267

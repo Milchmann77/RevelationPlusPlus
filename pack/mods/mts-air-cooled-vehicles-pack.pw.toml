@@ -1,0 +1,13 @@
+name = "MTS Air-Cooled Vehicles Pack"
+filename = "Air-Cooled Pack [MTS] 1.10.2-14.0.0-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "539c0102f02f09b2b83f07ab11349e17deca6c73"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2801233
+project-id = 323304

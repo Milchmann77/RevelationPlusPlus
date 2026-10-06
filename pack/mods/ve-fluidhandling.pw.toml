@@ -1,0 +1,13 @@
+name = "VE-FluidHandling"
+filename = "VE-FluidHandling-1.12.2-0.11.0b17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d82badd473128a36515877fff3b7a1d1066dee6a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2679943
+project-id = 262806

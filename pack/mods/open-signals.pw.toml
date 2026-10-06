@@ -1,0 +1,13 @@
+name = "Open Signals"
+filename = "OpenSignals-1.12.2-3.6.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21dd1e20f786f374cba541a5e1a7f5445c4c1436"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5866383
+project-id = 440990

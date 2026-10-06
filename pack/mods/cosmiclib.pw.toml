@@ -1,0 +1,13 @@
+name = "CosmicLib"
+filename = "CosmicLib-1.12.2-0.4.0.BETA.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf13d4e72e43f0a721b1304bb925cd1ac9ebd181"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2644720
+project-id = 283283

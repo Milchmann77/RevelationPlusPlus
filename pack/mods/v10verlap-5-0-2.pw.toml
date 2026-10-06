@@ -1,0 +1,8 @@
+name = "V10verlap-5.0.2"
+filename = "V10verlap-5.0.2.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/2643/67/V10verlap-5.0.2.jar"
+hash-format = "sha256"
+hash = "b2383c13dd5505163a42b1dfba8e74b4289d9da20e5f1a8bbbeac388fd37551f"

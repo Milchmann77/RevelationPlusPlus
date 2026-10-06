@@ -1,0 +1,13 @@
+name = "Collecting Rain"
+filename = "CollectingRain-1.12.2-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fb828bf0685762e40ef2cd5972247e0e65cdade4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2668879
+project-id = 310694

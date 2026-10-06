@@ -1,0 +1,13 @@
+name = "BetterOffhand"
+filename = "betteroffhand-1.12.2-0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d4815c7e984ace7bda7cb1fca2bbd3c7b88509ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2598727
+project-id = 291090

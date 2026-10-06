@@ -1,0 +1,13 @@
+name = "The Aether II: Phosphor Not Included"
+filename = "aether_ii-1.12.2-0.3.1-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3fdf612a7f1efe1d6a8d22b1e7c5cf37813b33ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4771846
+project-id = 917199

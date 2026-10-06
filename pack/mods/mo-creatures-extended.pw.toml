@@ -1,0 +1,13 @@
+name = "Mo' Creatures Extended"
+filename = "DrZharks-MoCreatures-Extended-12.4.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "633812f5c237cdb975fe41ed6710cf42f5f11524"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5654788
+project-id = 867351

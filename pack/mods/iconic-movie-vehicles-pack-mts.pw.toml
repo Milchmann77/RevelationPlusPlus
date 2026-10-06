@@ -1,0 +1,13 @@
+name = "Iconic Movie Vehicles Pack [MTS]"
+filename = "Iconic Film Vehicles [MTS] 1.10.2-1.5.0-ALPHA.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa2ead3d607596bc6009520bd6fc8aa93677ccfd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2740121
+project-id = 327251

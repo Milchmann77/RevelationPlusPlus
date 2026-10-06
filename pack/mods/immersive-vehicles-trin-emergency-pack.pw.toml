@@ -1,0 +1,13 @@
+name = "Immersive Vehicles Trin Emergency Pack"
+filename = "IV_Trin_Emergency_Pack_1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4bf2875d6bf81cb28c04b023e9a2d3261b249cc1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4066280
+project-id = 348178

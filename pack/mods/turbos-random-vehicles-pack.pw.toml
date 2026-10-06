@@ -1,0 +1,13 @@
+name = "MTS/IV - Turbo's Random Packs"
+filename = "Turbo's Random Packs-2.0.0 (MTS-IV V19+).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "590a54b396f2975beec8df379a16e953640b6e71"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3179855
+project-id = 367160

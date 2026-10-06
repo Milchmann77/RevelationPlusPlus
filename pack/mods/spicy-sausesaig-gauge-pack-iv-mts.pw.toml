@@ -1,0 +1,13 @@
+name = "SauseSaig Flight Instrument Pack (IV/MTS)"
+filename = "sausesaigpfdpack_V2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "31863d193c265630988c0fa0206c8f6e9f22fbbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3611361
+project-id = 420966

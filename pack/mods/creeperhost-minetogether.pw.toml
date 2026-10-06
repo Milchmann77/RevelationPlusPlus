@@ -1,0 +1,13 @@
+name = "MineTogether Community"
+filename = "MineTogether-1.12.2-2.4.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b15da3f7ca25b3bccdd4a6097a2648f960c304cc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3328387
+project-id = 267172

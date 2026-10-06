@@ -1,0 +1,13 @@
+name = "Immersive Vehicles (MTS/IV) - Official Content Pack - [OCP] - Planes, Cars, Helicopters & More!"
+filename = "MTS Official Pack-1.12.2-V25.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4495e6ea769570bc7d93b1efbbae6e7e56eee315"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4452426
+project-id = 292217

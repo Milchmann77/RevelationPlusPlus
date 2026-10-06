@@ -1,0 +1,13 @@
+name = "Enhanced Snowmen"
+filename = "EnhancedSnowman-1.12-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8e91d489f2fea417a0359be0b0f052a870ca12c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2545902
+project-id = 281669

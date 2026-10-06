@@ -1,0 +1,13 @@
+name = "Peckish"
+filename = "Peckish-1.12-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c81025ca2650b67f7c4cec80ae3fd7a462f26620"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2561659
+project-id = 289309

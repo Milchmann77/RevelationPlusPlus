@@ -1,0 +1,13 @@
+name = "Kaminari Motor Works [KMW] - Immersive Vehicles content pack"
+filename = "Generals_General_Vehicles_2.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "79339b564a3e859f94ae95e61447784024789055"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4005632
+project-id = 427473

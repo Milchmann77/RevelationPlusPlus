@@ -1,0 +1,13 @@
+name = "Planet Progression"
+filename = "PlanetProgression-1.12.2-0.4.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "03a1afd5537a5891bf2404f1a6aa4e3331aed6d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4000252
+project-id = 287275

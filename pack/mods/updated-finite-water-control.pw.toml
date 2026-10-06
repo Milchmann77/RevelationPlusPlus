@@ -1,0 +1,13 @@
+name = "Updated Finite Water Control"
+filename = "watercontrol-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51b51de416f63f9b6fd97b3ae04cf170b1683b58"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2974111
+project-id = 388180

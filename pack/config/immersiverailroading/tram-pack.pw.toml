@@ -1,0 +1,13 @@
+name = "Tram pack Standard Edition  [IR - Immersive Railroading]"
+filename = "Tram_pack_v2.5.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b6a5ad80075e1bc44387a2236a3ed4e68da6141"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6080747
+project-id = 530000

@@ -1,0 +1,13 @@
+name = "Autism's German Steam Train Pack [AGSTP]"
+filename = "AGSTP.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6fbf35976fc36d27bb84bb55da11a4322e06efaf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3579148
+project-id = 376321

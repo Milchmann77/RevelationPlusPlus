@@ -1,0 +1,8 @@
+name = "Unifine-1.12.2-0.1.0"
+filename = "Unifine-1.12.2-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/2931/402/Unifine-1.12.2-0.1.0.jar"
+hash-format = "sha256"
+hash = "139e97a7df2f8e0b5e35a130a9f05850e3b9b379418528e6b269a529d9fe2c5b"

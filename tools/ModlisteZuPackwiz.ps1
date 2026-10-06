@@ -1,16 +1,14 @@
-\xEF\xBB\xBF<#
-    ModlisteZuPackwiz.ps1
-    Wandelt die bisherige modpack_files.txt in ein packwiz-Pack um.
-
-    Aufruf im Pack-Ordner (dort, wo "packwiz init" ausgeführt wurde):
-        powershell -ExecutionPolicy Bypass -File ModlisteZuPackwiz.ps1 -Liste ..\modpack_files.txt
-
-    - CurseForge-Links  -> packwiz curseforge add (mit fester Datei-ID, ohne Abhängigkeiten)
-    - Andere Mod-Links  -> packwiz url add
-    - Sonstige Dateien  -> werden direkt heruntergeladen und von packwiz mit indiziert
-    Landet eine .pw.toml im falschen Ordner (z. B. config\immersiverailroading),
-    wird sie automatisch dorthin verschoben.
-#>
+# ModlisteZuPackwiz.ps1
+# Wandelt die bisherige modpack_files.txt in ein packwiz-Pack um.
+#
+# Aufruf im Pack-Ordner (dort, wo "packwiz init" ausgefuehrt wurde):
+# powershell -ExecutionPolicy Bypass -File ModlisteZuPackwiz.ps1 -Liste ..\modpack_files.txt
+#
+# - CurseForge-Links  -> packwiz curseforge add (mit fester Datei-ID, ohne Abhaengigkeiten)
+# - Andere Mod-Links  -> packwiz url add
+# - Sonstige Dateien  -> werden direkt heruntergeladen und von packwiz mit indiziert
+# Landet eine .pw.toml im falschen Ordner (z. B. config\immersiverailroading),
+# wird sie automatisch dorthin verschoben.
 param(
     [string]$Liste   = "..\modpack_files.txt",
     [string]$Packwiz = "",
@@ -21,7 +19,7 @@ $ErrorActionPreference = "Stop"
 
 # --- Voraussetzungen ---
 if (-not (Test-Path "pack.toml")) {
-    throw "Keine pack.toml gefunden. Bitte im Pack-Ordner ausführen (vorher 'packwiz init')."
+    throw "Keine pack.toml gefunden. Bitte im Pack-Ordner ausfuehren (vorher 'packwiz init')."
 }
 if (-not $Packwiz) {
     if (Test-Path ".\packwiz.exe") { $Packwiz = (Resolve-Path ".\packwiz.exe").Path }
@@ -91,7 +89,7 @@ foreach ($zeile in $zeilen) {
     $vorher = @(Get-MetaFiles)
 
     if ($url -match 'curseforge\.com/api/v1/mods/(\d+)/files/(\d+)/download') {
-        # Abhängigkeits-Abfragen mit "n" beantworten - die Liste ist bereits vollständig
+        # Abhaengigkeits-Abfragen mit "n" beantworten - die Liste ist bereits vollstaendig
         $ausgabe = "n`nn`nn`n" | & $Packwiz curseforge add --addon-id $Matches[1] --file-id $Matches[2] 2>&1 | Out-String
     }
     else {
@@ -115,7 +113,7 @@ Write-Host "`nAktualisiere Index..."
 $bericht = Join-Path $packRoot "umwandlung-bericht.txt"
 @(
     "Umwandlung $(Get-Date)"
-    "Einträge: $gesamt   Fehler: $($fehler.Count)   Hinweise: $($hinweise.Count)"
+    "Eintraege: $gesamt   Fehler: $($fehler.Count)   Hinweise: $($hinweise.Count)"
     ""
     "== Fehler =="
     $fehler

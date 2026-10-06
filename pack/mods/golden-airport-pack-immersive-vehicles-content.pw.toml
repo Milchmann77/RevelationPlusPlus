@@ -1,0 +1,13 @@
+name = "Golden Airport Pack (GAP) [Immersive Vehicles content pack]"
+filename = "Golden Airport Pack [IV] 3.2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "780a86f71e5e3c2f71d957cbf4b5d60a5a1141da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3444423
+project-id = 337416
