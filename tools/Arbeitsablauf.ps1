@@ -11,7 +11,7 @@
 
 $repoRoot = Split-Path $PSScriptRoot -Parent
 $packDir  = Join-Path $repoRoot "pack"
-$packwiz  = Join-Path $repoRoot "packwiz.exe"
+$packwiz  = Join-Path $repoRoot "pack/packwiz.exe"
 
 function Write-Step($text) {
     Write-Host ""

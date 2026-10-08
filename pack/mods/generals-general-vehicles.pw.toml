@@ -1,8 +1,0 @@
-name = "Generals General Vehicles"
-filename = "download"
-side = "both"
-
-[download]
-url = "https://www.curseforge.com/api/v1/mods/427473/files/4005632/download"
-hash-format = "sha256"
-hash = "5fca50a324730c1b497731d899c3323547b5ca370ca8730a4efd4c7f95bed4ff"

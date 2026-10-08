@@ -506,7 +506,7 @@ hash = "8411e585eddec5584075a38defc5e347db688a2d000fd4094167ea0240440827"
 
 [[files]]
 file = "config/immersiverailroading/autisms-german-steam-train-pack-agstp.pw.toml"
-hash = "9faa0257e29a66e558da42f61fbb63969caa46a2702827e9c2436e91a3a49f04"
+hash = "3b2c2e4ffb5a5f05700baaf7970f9b6bf5933a23cd7594fc67160faa71770b5e"
 metafile = true
 
 [[files]]
@@ -516,7 +516,7 @@ metafile = true
 
 [[files]]
 file = "config/immersiverailroading/friedrichlps-modern-stock-ir.pw.toml"
-hash = "38388c37113aa3198503c1657418c2191514d71087f78e6a01f39e7ebcf3cf88"
+hash = "08058a0af21476e6f8c5b3d28e42bb8569f4170347b882e30ddc6166cff7ab3b"
 metafile = true
 
 [[files]]
@@ -876,7 +876,7 @@ hash = "77c6b3868cde46dd403160c391da1f1138121989ac5afcc42f9a3a22a108393a"
 
 [[files]]
 file = "icon.png"
-hash = "15e397b8532437f8672bced6f978e5ae2c41e4d6e2c13ceb46735acc2fcbf924"
+hash = "15a16e2b08a2b72126f8eef994d57b574f17185e53acb5d039cbb49741c38b5c"
 
 [[files]]
 file = "mods/DWTPack_V2.0.2hotfix.jar"
@@ -895,7 +895,7 @@ file = "mods/ToughAsNails-1.12.2-3.1.0.1-universal.jar"
 hash = "38b1156b2b8caa78d72b3ca9d64e8f72ccb5eef04e644a1e035db21cf499f73a"
 
 [[files]]
-file = "mods/ToughExpansion-1.12-3.4.24.jar"
+file = "mods/ToughExpansion-1.12-3.4.24-revelation.jar"
 hash = "567811ea25d6a2f90850962dde8e6791f6394742849a5434aaacda82c26519ec"
 
 [[files]]
@@ -945,11 +945,6 @@ metafile = true
 [[files]]
 file = "mods/ae2wtlib.pw.toml"
 hash = "ce050f4ae82f3d6df53b775951c048d313a8b35eaf87e2125d42c8ee6bdbd5f8"
-metafile = true
-
-[[files]]
-file = "mods/agstp.pw.toml"
-hash = "7be24ec99a09443f76d89d6dcfb2ab2ae0a1fda2e10f384793ac52e0e8ef4203"
 metafile = true
 
 [[files]]
@@ -1242,11 +1237,6 @@ hash = "ca375a509e78813309304ba4cba65f0fc0be7010e601f5fb7422f8f98ad54ea3"
 metafile = true
 
 [[files]]
-file = "mods/craftspeed.pw.toml"
-hash = "b4f5b0446fdea8ce7ad933ae9b83b39c6eb578b38dd132b3e64c271323af7a01"
-metafile = true
-
-[[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "e81c480aa4f0e43c7215ae7a3cd3ce4ccadb13632ef16a55d8fb2c4773de005e"
 metafile = true
@@ -1298,7 +1288,7 @@ metafile = true
 
 [[files]]
 file = "mods/decocraft.pw.toml"
-hash = "3b8e51c39b1411576bee8af07a0326d511acc953615502453761ce30eb7713cb"
+hash = "ae3d9accf56cf41f28e7e718435a89fb593c21e9599f1e49b985a81741df76ef"
 metafile = true
 
 [[files]]
@@ -1482,11 +1472,6 @@ hash = "10c3aebf67d21b118c202d3159c6a58fffb8b8e57b6d7cf2f2d74ee38fbab01c"
 metafile = true
 
 [[files]]
-file = "mods/friedrichs-modern-stock.pw.toml"
-hash = "f947ebf3267a8410b5556cbd1b2160931a4647fc8a9ab743986d2fc73ca704eb"
-metafile = true
-
-[[files]]
 file = "mods/ftb-backups-forge.pw.toml"
 hash = "6aab174b12e2335e589aae9136ef5aecdfd1805b5930830d9ce378ae41abd9e3"
 metafile = true
@@ -1524,11 +1509,6 @@ metafile = true
 [[files]]
 file = "mods/gendustry.pw.toml"
 hash = "466b15cefb457971c6b7c3f8c351c22abeb0bfd6baaba60e5b3d3159910fb3ff"
-metafile = true
-
-[[files]]
-file = "mods/generals-general-vehicles.pw.toml"
-hash = "180388776fdb4039a05c0df8e79bd5029e5c8c51493487fb7bd2746330ebd352"
 metafile = true
 
 [[files]]
@@ -1613,7 +1593,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-vehicles-craftspeed.pw.toml"
-hash = "cc92f20028e349cf243ef7e203a8de3cd73d318061405d2c6b8dccaa7a13fd74"
+hash = "9446fd742aaf103c672f045dd7056349a77f29302d55819f20ae01f1da6b0b29"
 metafile = true
 
 [[files]]
@@ -1692,11 +1672,6 @@ hash = "774884eb257bdc6613ca71de5fb6618269e0e7bd0dfc4203caa563d58e0d8dfc"
 metafile = true
 
 [[files]]
-file = "mods/iv-farming.pw.toml"
-hash = "ee7fdde26091498b1781253bb25593039fcae4c8ec4b8ca1ed48e2fa4b4e3ba5"
-metafile = true
-
-[[files]]
 file = "mods/iv-tesp.pw.toml"
 hash = "379e1f7379d51dc7451213affdc7e800b62207a5caab09b7a2d5d295d7d682f6"
 metafile = true
@@ -1743,7 +1718,7 @@ metafile = true
 
 [[files]]
 file = "mods/kaminari-motor-works.pw.toml"
-hash = "4d7dea259625a710c38c8070ae4d070bf2f3ac63ec1d66b76f5d5b8a0ca9abb6"
+hash = "139976bf36b84ad60e55e4a602ea07da1f97cb71bf5307f75791af82fc66d863"
 metafile = true
 
 [[files]]
@@ -1991,7 +1966,7 @@ metafile = true
 
 [[files]]
 file = "mods/netherending-ores.pw.toml"
-hash = "27a73843086fea288819fdd530d9438223ec4b91888980cafb87fbc71c7e2738"
+hash = "d9e1be9a417cc81f07efcc3fe40ac727eac8bbcb17b3074969d07a043d3cf426"
 metafile = true
 
 [[files]]
@@ -2141,7 +2116,7 @@ metafile = true
 
 [[files]]
 file = "mods/ptrlib.pw.toml"
-hash = "7b78ba5f242ba2b482924419ca545abc58a3ce13e48cf1e42958a4e7facedba6"
+hash = "e79184db343ab6a00b417ef7aa65fd4de143bd9cc0299e911396ee1c583c2b4c"
 metafile = true
 
 [[files]]
@@ -2166,7 +2141,7 @@ metafile = true
 
 [[files]]
 file = "mods/randall-agriculture-pack.pw.toml"
-hash = "37199c8eed1b03338e553d4bdc0608f4fb2b54aa3b60cdc83d816d3fcb254535"
+hash = "f9e95207e8915e3c93c6a61ef105eefd65861a555e8e8cce038333cbce524b0a"
 metafile = true
 
 [[files]]
@@ -2331,7 +2306,7 @@ metafile = true
 
 [[files]]
 file = "mods/sleepingoverhaul.pw.toml"
-hash = "501ba6c1832a1f01c99552125f2ea9250b4521edad8cc92656913e58d89e21a8"
+hash = "e0ec04953c588cd2794039603b101ecd7e21295c4561458abe90a1da6dc289ad"
 metafile = true
 
 [[files]]
@@ -2550,11 +2525,6 @@ hash = "a3895abc87b7e4c9650ce4e7938953f22831d1f1e4e0fefc7a8c9dc65c0eb899"
 metafile = true
 
 [[files]]
-file = "mods/tough-expansion.pw.toml"
-hash = "e22d371f67986a519950dfd18c5442d568f1c5cd1b94fcc43c5307cb2fb944d0"
-metafile = true
-
-[[files]]
 file = "mods/track-api.pw.toml"
 hash = "45a91b2fd9cd1424357aab07b60395c23df4f494e943a6489ef89808845b4f27"
 metafile = true
@@ -2745,16 +2715,5 @@ hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
 
 [[files]]
-file = "resourcepacks/audiocraft.pw.toml"
-hash = "a2a2f12e09abda8db0a86fbf3db15c752bf9afacd88b5985beace1cb4f9f5a5f"
-metafile = true
-
-[[files]]
-file = "resourcepacks/better-vanilla-16x.pw.toml"
-hash = "55a7074b624ea02a89a4fa28ef48468e6a2fbc9fd8c7f4e269e9e46dc71b59e0"
-metafile = true
-
-[[files]]
-file = "resourcepacks/matmos-2020-zen.pw.toml"
-hash = "26370f4df0e4fbc1fec104cce8f9eb3e485813f467ce048f8ba594311a60f7ed"
-metafile = true
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"

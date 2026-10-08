@@ -1,8 +1,0 @@
-name = "Craftspeed"
-filename = "download"
-side = "both"
-
-[download]
-url = "https://www.curseforge.com/api/v1/mods/513881/files/4513313/download"
-hash-format = "sha256"
-hash = "7451696ecea6d0dce2a78d1a321bf193aa1b2732610fa2736df2a85f5da9f209"

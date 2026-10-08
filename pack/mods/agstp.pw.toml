@@ -1,8 +1,0 @@
-name = "AGSTP"
-filename = "download"
-side = "both"
-
-[download]
-url = "https://www.curseforge.com/api/v1/mods/376321/files/3579148/download"
-hash-format = "sha256"
-hash = "06b7762c312bd3071e5586b23ecf6126347277a616d9a3fbeb333321e0889d4e"

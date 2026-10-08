@@ -3,11 +3,6 @@ filename = "Generals_General_Vehicles_2.1.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "79339b564a3e859f94ae95e61447784024789055"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 4005632
-project-id = 427473
+url = "https://www.curseforge.com/api/v1/mods/427473/files/4005632/download"
+hash-format = "sha256"
+hash = "5fca50a324730c1b497731d899c3323547b5ca370ca8730a4efd4c7f95bed4ff"

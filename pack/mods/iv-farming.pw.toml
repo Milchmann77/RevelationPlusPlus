@@ -1,8 +1,0 @@
-name = "IV Farming"
-filename = "download"
-side = "both"
-
-[download]
-url = "https://www.curseforge.com/api/v1/mods/363180/files/3783068/download"
-hash-format = "sha256"
-hash = "ec9271543f2d333bf9f9cb80b2dd2290f326cadbffb5782a7e76ab2379446779"
