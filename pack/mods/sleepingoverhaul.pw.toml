@@ -1,13 +1,8 @@
 name = "SleepingOverhaul"
-filename = "SleepingOverhaul-1.12.2-1.0.0.jar"
+filename = "download"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "772233e0dcae5a4a6e4beb003abee63df76bf407"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2644723
-project-id = 297284
+url = "https://www.curseforge.com/api/v1/mods/297284/files/2644723/download"
+hash-format = "sha256"
+hash = "ad3c463f963ad507e6606fbe642e1190614c4bcad87b1d99129d4fd12076ef71"

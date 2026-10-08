@@ -1,0 +1,8 @@
+name = "Friedrichs Modern Stock"
+filename = "download"
+side = "both"
+
+[download]
+url = "https://www.curseforge.com/api/v1/mods/305148/files/2640621/download"
+hash-format = "sha256"
+hash = "8982636782627a4599395918fb025893991ad379eaa45452ba251cd87cf2e090"

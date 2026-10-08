@@ -1,13 +1,8 @@
 name = "Netherending Ores"
-filename = "Netherending-Ores-1.12.2-1.4.2.jar"
+filename = "download"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "04504a3b00a44a77019d9f7ed2e63cd225f84b23"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 3048077
-project-id = 274807
+url = "https://www.curseforge.com/api/v1/mods/274807/files/3048077/download"
+hash-format = "sha256"
+hash = "84ac74ed254fcc2c7c9d1a9702d636a2c825a8825af7fe2db79f31bfe0cf8849"

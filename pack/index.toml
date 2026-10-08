@@ -948,6 +948,11 @@ hash = "ce050f4ae82f3d6df53b775951c048d313a8b35eaf87e2125d42c8ee6bdbd5f8"
 metafile = true
 
 [[files]]
+file = "mods/agstp.pw.toml"
+hash = "7be24ec99a09443f76d89d6dcfb2ab2ae0a1fda2e10f384793ac52e0e8ef4203"
+metafile = true
+
+[[files]]
 file = "mods/akashic-tome.pw.toml"
 hash = "965be564aa6d4f69905817140576e58a42a69b2e6ffc881c800b8d8f790c77bb"
 metafile = true
@@ -1237,6 +1242,11 @@ hash = "ca375a509e78813309304ba4cba65f0fc0be7010e601f5fb7422f8f98ad54ea3"
 metafile = true
 
 [[files]]
+file = "mods/craftspeed.pw.toml"
+hash = "b4f5b0446fdea8ce7ad933ae9b83b39c6eb578b38dd132b3e64c271323af7a01"
+metafile = true
+
+[[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "e81c480aa4f0e43c7215ae7a3cd3ce4ccadb13632ef16a55d8fb2c4773de005e"
 metafile = true
@@ -1288,7 +1298,7 @@ metafile = true
 
 [[files]]
 file = "mods/decocraft.pw.toml"
-hash = "9bfe94e3bfc1a392eca371400b4dc82cd24d5bd9c05fa137116690b3e3c1a639"
+hash = "3b8e51c39b1411576bee8af07a0326d511acc953615502453761ce30eb7713cb"
 metafile = true
 
 [[files]]
@@ -1472,6 +1482,11 @@ hash = "10c3aebf67d21b118c202d3159c6a58fffb8b8e57b6d7cf2f2d74ee38fbab01c"
 metafile = true
 
 [[files]]
+file = "mods/friedrichs-modern-stock.pw.toml"
+hash = "f947ebf3267a8410b5556cbd1b2160931a4647fc8a9ab743986d2fc73ca704eb"
+metafile = true
+
+[[files]]
 file = "mods/ftb-backups-forge.pw.toml"
 hash = "6aab174b12e2335e589aae9136ef5aecdfd1805b5930830d9ce378ae41abd9e3"
 metafile = true
@@ -1509,6 +1524,11 @@ metafile = true
 [[files]]
 file = "mods/gendustry.pw.toml"
 hash = "466b15cefb457971c6b7c3f8c351c22abeb0bfd6baaba60e5b3d3159910fb3ff"
+metafile = true
+
+[[files]]
+file = "mods/generals-general-vehicles.pw.toml"
+hash = "180388776fdb4039a05c0df8e79bd5029e5c8c51493487fb7bd2746330ebd352"
 metafile = true
 
 [[files]]
@@ -1672,6 +1692,11 @@ hash = "774884eb257bdc6613ca71de5fb6618269e0e7bd0dfc4203caa563d58e0d8dfc"
 metafile = true
 
 [[files]]
+file = "mods/iv-farming.pw.toml"
+hash = "ee7fdde26091498b1781253bb25593039fcae4c8ec4b8ca1ed48e2fa4b4e3ba5"
+metafile = true
+
+[[files]]
 file = "mods/iv-tesp.pw.toml"
 hash = "379e1f7379d51dc7451213affdc7e800b62207a5caab09b7a2d5d295d7d682f6"
 metafile = true
@@ -1794,6 +1819,10 @@ metafile = true
 file = "mods/mekanism.pw.toml"
 hash = "c2c9d866c1bc629a6b126b9ea138c9ebf1dd18afc9ce7297740ddcd7866ac7b1"
 metafile = true
+
+[[files]]
+file = "mods/milifi-26w41.jar"
+hash = "f040eb2fd161f3fbdb9065a551edbcd346ace1f23976fa8bff8e78277e6570cf"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
@@ -1962,7 +1991,7 @@ metafile = true
 
 [[files]]
 file = "mods/netherending-ores.pw.toml"
-hash = "2e831e176397254d435a4c71dfcbeadf9d99a6964b22f8cfdcc260384b43c279"
+hash = "27a73843086fea288819fdd530d9438223ec4b91888980cafb87fbc71c7e2738"
 metafile = true
 
 [[files]]
@@ -2112,7 +2141,7 @@ metafile = true
 
 [[files]]
 file = "mods/ptrlib.pw.toml"
-hash = "b4a05a52e66b8801b103553129b214da4f36a1e3f03b2628f72f3804a6bc1445"
+hash = "7b78ba5f242ba2b482924419ca545abc58a3ce13e48cf1e42958a4e7facedba6"
 metafile = true
 
 [[files]]
@@ -2302,7 +2331,7 @@ metafile = true
 
 [[files]]
 file = "mods/sleepingoverhaul.pw.toml"
-hash = "5d60d390c91b678b443f620777e8897b20eac1df83ce42e16c30b1d2aef3089e"
+hash = "501ba6c1832a1f01c99552125f2ea9250b4521edad8cc92656913e58d89e21a8"
 metafile = true
 
 [[files]]
