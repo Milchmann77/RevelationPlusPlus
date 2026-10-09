@@ -875,10 +875,6 @@ file = "config/worldprimer.cfg"
 hash = "77c6b3868cde46dd403160c391da1f1138121989ac5afcc42f9a3a22a108393a"
 
 [[files]]
-file = "icon.png"
-hash = "15a16e2b08a2b72126f8eef994d57b574f17185e53acb5d039cbb49741c38b5c"
-
-[[files]]
 file = "mods/DWTPack_V2.0.2hotfix.jar"
 hash = "7d0d8c2552730363a44ed44ef8393faa9974105c3098e3cbe30b937d1476609d"
 
@@ -2713,3 +2709,7 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
