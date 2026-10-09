@@ -10,7 +10,7 @@ hash = "22a9901114afdd40bc097a93507f666c214644ffb5ba3c20e85708e428599e50"
 
 [[files]]
 file = "config/CustomMainMenu/mainmenu.json"
-hash = "034af4d3f1ab2f2ba2a0a990d46d3eb7dd7355e7a0c77025d97c3bbd085158e2"
+hash = "1222e6af31b7cf8287dbc3fbb56607b1ea63520a6b19f126f9d43fddbb793c95"
 
 [[files]]
 file = "config/Exoplanets/Core.cfg"
@@ -2709,7 +2709,3 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
-
-[[files]]
-file = "umwandlung-bericht.txt"
-hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
