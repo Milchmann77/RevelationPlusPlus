@@ -2709,3 +2709,7 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
