@@ -10,7 +10,7 @@ hash = "22a9901114afdd40bc097a93507f666c214644ffb5ba3c20e85708e428599e50"
 
 [[files]]
 file = "config/CustomMainMenu/mainmenu.json"
-hash = "d98be56d6e1c1853b078123159b9f7ef8110d582f5333dcec0e1864a21947be4"
+hash = "f942f57042960fc4e51b37a928e06044f909f043cf4f0e805fc1634006eefa73"
 
 [[files]]
 file = "config/Exoplanets/Core.cfg"
@@ -2733,7 +2733,3 @@ hash = "c8b7213599b603f658e40fc1269e0e94b97cf8588ad93d0eac23df7eb320635f"
 [[files]]
 file = "servers.dat"
 hash = "66fdc869c99d2ad68005e62a02ea9e22abade61657fa01817ce724eaf352a62e"
-
-[[files]]
-file = "umwandlung-bericht.txt"
-hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
