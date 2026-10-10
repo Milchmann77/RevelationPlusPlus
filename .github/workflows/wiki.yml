@@ -1,0 +1,77 @@
+name: Wiki aktualisieren
+
+# Uebertraegt den Ordner wiki/ ins GitHub-Wiki dieses Repos.
+# Startet automatisch bei jedem Push, der etwas in wiki/ aendert,
+# oder per Klick: GitHub -> Actions -> "Wiki aktualisieren" -> "Run workflow".
+#
+# Einmalig vorher noetig: Im Reiter "Wiki" auf "Create the first page" klicken
+# und speichern. Erst dann gibt es das Wiki-Repo, in das hier gepusht wird.
+#
+# Seiten aus wiki/ ersetzen die gleichnamigen Seiten im Wiki. Seiten, die es in
+# wiki/ nicht (mehr) gibt, werden im Wiki geloescht - im Browser bearbeitete
+# Seiten also bitte zusaetzlich in wiki/ uebernehmen. Ausnahme: Home.md,
+# _Sidebar.md und _Footer.md bleiben unangetastet, solange sie nicht in wiki/
+# liegen. Die kannst du also auch direkt im Wiki pflegen.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki/**"
+      - ".github/workflows/wiki.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wiki
+  cancel-in-progress: false
+
+jobs:
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Wiki-Repo klonen
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GIT_TERMINAL_PROMPT: "0"
+        run: |
+          url="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git"
+          if ! git clone --quiet "$url" "$RUNNER_TEMP/wiki-repo"; then
+            echo "::error::Das Wiki gibt es noch nicht. Einmal im Reiter 'Wiki' auf 'Create the first page' klicken, speichern und diesen Workflow erneut starten."
+            exit 1
+          fi
+
+      - name: Seiten uebernehmen
+        run: |
+          shopt -s dotglob nullglob
+          for entry in "$RUNNER_TEMP/wiki-repo"/*; do
+            name="$(basename "$entry")"
+            case "$name" in
+              .git)
+                continue ;;
+              Home.md|_Sidebar.md|_Footer.md)
+                # Sonderseiten nur ersetzen, wenn sie auch in wiki/ liegen
+                [ -e "wiki/$name" ] || continue ;;
+            esac
+            rm -rf "$entry"
+          done
+          cp -r wiki/. "$RUNNER_TEMP/wiki-repo/"
+
+      - name: Committen und pushen
+        run: |
+          cd "$RUNNER_TEMP/wiki-repo"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen am Wiki."
+            exit 0
+          fi
+          git commit --quiet -m "Wiki aktualisiert (${GITHUB_SHA::7})"
+          git push --quiet
+          echo "Wiki aktualisiert: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/wiki"
