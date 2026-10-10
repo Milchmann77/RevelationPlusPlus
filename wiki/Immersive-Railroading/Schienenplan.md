@@ -4,7 +4,7 @@ Der **Schienenplan** ist das wichtigste Werkzeug von *Immersive Railroading*. Mi
 | --- | --- |
 | Name im Spiel | Schienenplan |
 | Englischer Name | Track Blueprint |
-| Mod | Immersive Railroading |
+| Mod | [Immersive Railroading](Immersive-Railroading) |
 | Item-ID | `immersiverailroading:item_rail` |
 | Art | Werkzeug, nicht stapelbar |
 | Verbrauch beim Bauen | keiner, nur die Baumaterialien |
@@ -102,21 +102,21 @@ Ein Kreisbogen mit festem Winkel (Regler *Grad Kurve*, 22,5° bis 90°). Der Rad
 
 ### Weiche
 
-Ein gerades Gleis mit abzweigendem Strang. Winkel und Seite des Abzweigs stellst du über *Grad Kurve* und *Richtung* ein. Mit dem **Golden Spike** kannst du den Abzweig auch frei formen, genau wie bei Custom Curve.
+Ein gerades Gleis mit abzweigendem Strang. Winkel und Seite des Abzweigs stellst du über *Grad Kurve* und *Richtung* ein. Mit dem **[Golden Spike](Golden-Spike)** kannst du den Abzweig auch frei formen, genau wie bei Custom Curve.
 
 - Ohne Redstone-Signal steht die Weiche auf **gerade**.
 - Bekommt ein Gleisblock am Weichenanfang ein Redstone-Signal, etwa von einem Hebel oder Redstone-Block direkt daneben, stellt sie auf **Abzweig**.
-- Mit dem **Switch Key** verriegelst du eine Weiche fest auf gerade oder Abzweig. Verriegelte Weichen ignorieren Redstone.
+- Mit dem **[Switch Key](Switch-Key)** verriegelst du eine Weiche fest auf gerade oder Abzweig. Verriegelte Weichen ignorieren Redstone.
 
 ### Drehscheibe
 
 Eine runde Drehscheibe, zum Beispiel zum Wenden von Dampfloks. *Länge* ist hier der Radius. Wie groß die Scheibe höchstens werden darf, hängt von der Spurweite ab: Breitspur 44, Normalspur 30, Schmalspur 19, Minecraftspur 13 und Modellspur 4 Blöcke.
 
-Gedreht wird mit dem **Großen Schraubenschlüssel**: Rechtsklick auf die Drehscheibe an der Stelle, in deren Richtung die Brücke zeigen soll. Die Brücke rastet in 22,5°-Schritten ein.
+Gedreht wird mit dem **[Großen Schraubenschlüssel](Großer-Schraubenschlüssel)**: Rechtsklick auf die Drehscheibe an der Stelle, in deren Richtung die Brücke zeigen soll. Die Brücke rastet in 22,5°-Schritten ein.
 
 ### Custom Curve
 
-Ein frei geformtes Gleis („Flex-Gleis“) mit bis zu 1000 Blöcken Länge – auch mit Höhenunterschied, also als Kurve mit Steigung. Endpunkt und Richtung legst du mit dem **Golden Spike** fest:
+Ein frei geformtes Gleis („Flex-Gleis“) mit bis zu 1000 Blöcken Länge – auch mit Höhenunterschied, also als Kurve mit Steigung. Endpunkt und Richtung legst du mit dem **[Golden Spike](Golden-Spike)** fest:
 
 1. Typ *Custom Curve* wählen und *Entwurf platzieren* anhaken.
 2. Den Entwurf am Startpunkt setzen. Schau dabei in die Richtung, in die das Gleis losführen soll.
@@ -170,7 +170,7 @@ Im **Kreativmodus** baust du kostenlos, und Blöcke im Weg werden automatisch we
 
 | Material | Woher bekommst du es? |
 | --- | --- |
-| **Schienensegmente** in der Spurweite des Gleises | In der Gießanlage gießt du einen *Schienenguss*, den die Schienenwalze zu **20 Schienensegmenten** walzt. Die Spurweite legst du beim Gießen fest; ein Guss in Normalspur kostet Stahl im Wert von 20 Stahlbarren. Beide Maschinen sind Multiblöcke, ihre Baupläne findest du im *Immersive Railroading Handbuch* unter `CASTING` und `RAIL_MACHINE`. |
+| **Schienensegmente** in der Spurweite des Gleises | In der [Gießanlage](Gießanlage) gießt du einen *Schienenguss*, den die [Schienenwalze](Schienenwalze) zu **20 Schienensegmenten** walzt. Die Spurweite legst du beim Gießen fest; ein Guss in Normalspur kostet Stahl im Wert von 20 Stahlbarren. Beide Maschinen sind Multiblöcke, ihre Baupläne findest du im [Immersive Railroading Handbuch](Immersive-Railroading-Handbuch) unter `CASTING` und `RAIL_MACHINE`. |
 | **Schwellen** für den Stil *Default* | **Behandelte Holzbretter** aus Immersive Engineering (8 Holzbretter um einen Eimer Teeröl). Alternativ gehen *Holzschwelle* und *Teerölholzblock* aus Railcraft. **Normale Holzbretter funktionieren in Revelation++ nicht.** |
 | Schwellen für den Stil *Concrete Ties* | je Schwelle 2 × Beton und 1 × Eisenbarren |
 | Schwellen für den Stil *Rails Only* | je Schwelle 1 × Beton und 1 × Eisenbarren |
@@ -211,7 +211,7 @@ Baust du ein Gleis wieder ab, bekommst du Schienensegmente, Schwellen und Schien
 
 ## Weitere Verwendung
 
-Außer zum Bauen brauchst du den Schienenplan als Zutat für den **Track Exchanger**. Mit ihm änderst du Stil, Schienenbett und Spurweite fertiger Gleise, ohne sie abzureißen – im Überlebensmodus gegen das neue Material, das alte bekommst du zurück. Schienenplan und Schraubenschlüssel werden beim Herstellen verbraucht.
+Außer zum Bauen brauchst du den Schienenplan als Zutat für den **[Track Exchanger](Track-Exchanger)**. Mit ihm änderst du Stil, Schienenbett und Spurweite fertiger Gleise, ohne sie abzureißen – im Überlebensmodus gegen das neue Material, das alte bekommst du zurück. Schienenplan und Schraubenschlüssel werden beim Herstellen verbraucht.
 
 <table>
   <tr>
@@ -240,12 +240,13 @@ Außer zum Bauen brauchst du den Schienenplan als Zutat für den **Track Exchang
 
 ## Siehe auch
 
-- **Schienensegment** und **Schienenguss** – das Material für die Schienen
-- **Golden Spike** – formt Custom Curves und Weichen-Abzweige
-- **Großer Schraubenschlüssel** – baut die Maschinen von Immersive Railroading und dreht Drehscheiben
-- **Switch Key** – verriegelt Weichen
-- **Track Exchanger** – ändert Stil, Schienenbett und Spurweite fertiger Gleise
-- **Immersive Railroading Handbuch** – enthält die Baupläne für Gießanlage, Schienenwalze und die übrigen Maschinen
+- [Immersive Railroading](Immersive-Railroading) – Übersicht und Weg zum ersten Zug
+- [Gießanlage](Gießanlage) und [Schienenwalze](Schienenwalze) – stellen Schienenguss und Schienensegmente her
+- [Golden Spike](Golden-Spike) – formt Custom Curves und Weichen-Abzweige
+- [Großer Schraubenschlüssel](Großer-Schraubenschlüssel) – baut die Maschinen von Immersive Railroading und dreht Drehscheiben
+- [Switch Key](Switch-Key) – verriegelt Weichen
+- [Track Exchanger](Track-Exchanger) – ändert Stil, Schienenbett und Spurweite fertiger Gleise
+- [Immersive Railroading Handbuch](Immersive-Railroading-Handbuch) – enthält die Baupläne für Gießanlage, Schienenwalze und die übrigen Maschinen
 - Offizielles Wiki der Mod (englisch, teilweise veraltet): [Track Blueprint](https://github.com/TeamOpenIndustry/ImmersiveRailroading/wiki/Track-Blueprint) · [Custom Curves](https://github.com/TeamOpenIndustry/ImmersiveRailroading/wiki/Custom-Curves)
 
 ---

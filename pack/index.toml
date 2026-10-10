@@ -1793,7 +1793,7 @@ metafile = true
 
 [[files]]
 file = "mods/milifi-26w41.jar"
-hash = "f040eb2fd161f3fbdb9065a551edbcd346ace1f23976fa8bff8e78277e6570cf"
+hash = "30a1c04b00a823248082fc4f87045d02e2937e46628183715b553852b7e9610c"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
