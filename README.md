@@ -113,6 +113,7 @@ Das Pack wird mit **[packwiz](https://packwiz.infra.link/)** verwaltet.
 pack/        packwiz-Pack (entspricht dem .minecraft-Ordner)
 instance/    MultiMC-Instanzvorlage für das Release
 tools/       Hilfsskripte
+wiki/        Wiki-Seiten (werden beim Push automatisch ins GitHub-Wiki übertragen)
 ```
 
 Änderungen am Pack:

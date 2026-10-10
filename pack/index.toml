@@ -2121,6 +2121,10 @@ hash = "1fbab6ebdd1be035f59ce292b24d9012e890d74d0f1a3a74857c72ccecc8aa69"
 metafile = true
 
 [[files]]
+file = "mods/pzb-1.0.0.jar"
+hash = "2b9dd44c64688e60e268932bbfd69aa4cc2af84a88d32091632ad9b35c72907c"
+
+[[files]]
 file = "mods/quark.pw.toml"
 hash = "2e9648786a8cf14889eeac19283e7b534be2195d8c6f8de292d0af4071802f31"
 metafile = true
@@ -2709,3 +2713,7 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
