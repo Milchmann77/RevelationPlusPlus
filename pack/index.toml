@@ -808,7 +808,7 @@ hash = "8fe9aac27222ab6e61ef2081ab31011e84a99a0d35c152edb0cf9456bb1f0bfa"
 
 [[files]]
 file = "config/smoothfont/smoothfont.cfg"
-hash = "6fcb36c6ea6149fd8030c184cd4fc3948803e262292b3798970a04d45db4642b"
+hash = "25115e16ae801a67561a44af48ffb5c2930049f9b25148148ac57087e923b793"
 
 [[files]]
 file = "config/spiceoflife.cfg"
@@ -865,6 +865,10 @@ hash = "c9b785fd34baca997890a40bbd2373634cc4dbde046e53cb98e913f0ad1a6db9"
 [[files]]
 file = "config/watercontrol.cfg"
 hash = "fed961ba4dfe9b22b3315df386eab8fdf110458ec2d17ac5c0b102787e68ebeb"
+
+[[files]]
+file = "config/wecui3.yml"
+hash = "a61de92e5ccbffc56a948bc9cc9bf5d9945d85c6f3314b5f558c749c907f627f"
 
 [[files]]
 file = "config/winterwonderland.cfg"
@@ -2713,3 +2717,23 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "32fee1ae059e183eb6d0201834e66c8f566a48952462197df0e08f8ef118ec2c"
+
+[[files]]
+file = "optionsof.txt"
+hash = "7eba3d8724be157741f2bed41f7c6dfff054ae355055572ce2483dcce9aaaab1"
+
+[[files]]
+file = "optionsshaders.txt"
+hash = "c8b7213599b603f658e40fc1269e0e94b97cf8588ad93d0eac23df7eb320635f"
+
+[[files]]
+file = "servers.dat"
+hash = "66fdc869c99d2ad68005e62a02ea9e22abade61657fa01817ce724eaf352a62e"
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
