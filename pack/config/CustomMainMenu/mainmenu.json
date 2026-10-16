@@ -103,7 +103,7 @@
          "texture":"web:https://raw.githubusercontent.com/ViVBling/RevelationPlusPlus/refs/heads/main/minecraft/resources/mainmenu/support.png",
          "action":{
             "type":"openLink",
-            "link":"https://github.com/ViVBling/RevelationPlusPlus/wiki/Fehler-und-Probleme"
+            "link":"https://github.com/Milchmann77/RevelationPlusPlus/wiki/Fehler-und-Probleme"
          }
       },
       "wiki":{
@@ -119,7 +119,7 @@
          "texture":"web:https://raw.githubusercontent.com/ViVBling/RevelationPlusPlus/refs/heads/main/minecraft/resources/mainmenu/wiki.png",
          "action":{
             "type":"openLink",
-            "link":"https://github.com/ViVBling/RevelationPlusPlus/wiki"
+            "link":"https://github.com/Milchmann77/RevelationPlusPlus/wiki"
          }
       },
       "discord":{

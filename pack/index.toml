@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
+hash = "09d3d209de9d406d557e01200c6aa06242aaacb8f9de31977693aae2d2223853"
+
+[[files]]
 file = "config/AsmodeusCore/core.conf"
 hash = "54c8ca1afc3922c95f21b6e4b2ca39bbe85b65f45dde1e0097c3c8da8ef1433a"
 
@@ -10,7 +14,7 @@ hash = "22a9901114afdd40bc097a93507f666c214644ffb5ba3c20e85708e428599e50"
 
 [[files]]
 file = "config/CustomMainMenu/mainmenu.json"
-hash = "6c9fb57d7bb345047b5183588701d6b061b9dbffca29057dc0d4cf3c8490c518"
+hash = "7cb21b2a1642df173d6cab709881de4e5cd1fb3b3a43027fde28cc88f1c02f9a"
 
 [[files]]
 file = "config/Exoplanets/Core.cfg"
@@ -469,6 +473,10 @@ file = "config/enderio/enderiopowertools.cfg"
 hash = "7210d8c923c26c1391fe1e56120b5ac12f2960780edc34357f096497fd2127a2"
 
 [[files]]
+file = "config/energyconverters.cfg"
+hash = "48a12e34f2c3d516f8ead93f03003ac9919b62ad061a22c9dc996df17622cff9"
+
+[[files]]
 file = "config/enhanced_snowman.cfg"
 hash = "62274266df9ffb9180607b507d895ef8bff8df88a2805438f146779e27a44f2c"
 
@@ -489,6 +497,10 @@ file = "config/ftbutilities.cfg"
 hash = "0257c6a320246dfb1e71f5ad717fe7cb6126d9ce7c3aded5fd4bcf7ad3d421bb"
 
 [[files]]
+file = "config/gendustry/revelation.cfg"
+hash = "317f57616b62be9eb056353c9084e2a69a77c012e493e4582b628824f685df22"
+
+[[files]]
 file = "config/golems.cfg"
 hash = "d6db07ec11779488a88b9c3c33a9ffc2ac759b26bc399a411c694ad14cb6b2f0"
 
@@ -499,6 +511,10 @@ hash = "c9eaa67b713ddac3c418568d3b206b2974be4930b55daf241fdd3bd374a69b7d"
 [[files]]
 file = "config/ic2.ini"
 hash = "da4bec2300429c34f2b2314ffafbeff8b63cf3c5ed0020eb1ddf1dc3cd267a82"
+
+[[files]]
+file = "config/icbmclassic/mods/ic2.cfg"
+hash = "5c4ad0d0f9db52f0f431db92e4955401fb4ec7ed95000f29accd88070ab942aa"
 
 [[files]]
 file = "config/immersivepetroleum.cfg"
@@ -768,7 +784,7 @@ hash = "f3a9e14009b29d1bb816ba92b8e987230dc7699f27f2b3e9a746d55a14d66abe"
 
 [[files]]
 file = "config/opencomputers/settings.conf"
-hash = "3103fb87ebb42053622012fcd6e5a1be34e5ff5a6d449688baec64561c41c614"
+hash = "42f008e922bcfa8a21cf60ac2e2a200147b5f13f76b55d00a4d4ade3d5ead612"
 
 [[files]]
 file = "config/projectE/ProjectE.cfg"
@@ -844,11 +860,11 @@ hash = "4fed91d2811c910de4c93a9a4cb16ae8e0216dab2e5b3cf9d38e78952762adf4"
 
 [[files]]
 file = "config/toughasnails/block_temperature.json"
-hash = "b1cf2f123bc9bc4abf7412065a2b1aa9042eb3cf6f459b6de17a90470d7a6d57"
+hash = "4c0d617e0cfe4852a7c1b51b8d372dafc90fa2934932e8fe7bb477c55dc16a88"
 
 [[files]]
 file = "config/toughasnails/drink_stats.json"
-hash = "b818b39421172d8de020c34071b138f79aa0653a51f0ba41a9d99c8a7a409e21"
+hash = "55fa2b13a729b75cfbe1b2b2a2fcfd01302305999de669dbb700d24e70ab4ab5"
 
 [[files]]
 file = "config/toughasnails/gameplay.cfg"
@@ -920,7 +936,7 @@ hash = "38b1156b2b8caa78d72b3ca9d64e8f72ccb5eef04e644a1e035db21cf499f73a"
 
 [[files]]
 file = "mods/ToughExpansion-1.12-3.4.24-revelation.jar"
-hash = "567811ea25d6a2f90850962dde8e6791f6394742849a5434aaacda82c26519ec"
+hash = "a7737794c91e41ef2836dc63946b2f8ec78d1af3ba4881538b326797e174faa7"
 
 [[files]]
 file = "mods/WinterWonderLand-1.2.2.jar"
@@ -1825,8 +1841,8 @@ hash = "c2c9d866c1bc629a6b126b9ea138c9ebf1dd18afc9ce7297740ddcd7866ac7b1"
 metafile = true
 
 [[files]]
-file = "mods/milifi-26w41.jar"
-hash = "30a1c04b00a823248082fc4f87045d02e2937e46628183715b553852b7e9610c"
+file = "mods/milifi-26w42.jar"
+hash = "c7c164df5020c123f06330e48838144e6f9c737c645120d50b87823f85a93846"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
@@ -2839,7 +2855,7 @@ hash = "3af2658d224c50a4017ad66bdf7377a8d566dd757a797fad62c0d77aa105c7c3"
 
 [[files]]
 file = "scripts/industrialcraft2_canner.zs"
-hash = "f488e952582a99a496d4d76b4619eea15d09501295403d85a7b170ff3ae0d481"
+hash = "d5355ea8c318b5b6a02d82e378929efecf39bb19fd2174395020fb0c782646e2"
 
 [[files]]
 file = "scripts/industrialcraft2_liquid_heat_exchanger.zs"
@@ -2878,8 +2894,12 @@ file = "scripts/merchant_trades.zs"
 hash = "b0566ce9b58552aba33eb2e377f179c877bf97c63f461989e05b1df427d886f7"
 
 [[files]]
+file = "scripts/milifi.zs"
+hash = "ec96b1f7eeacd4b52b29a7bbbf13e3d7fd674f013e5cdb3553daf437b2e3d653"
+
+[[files]]
 file = "scripts/oredict.zs"
-hash = "a679965c1e83990534f68411e3e3fe07c8428e3d6fc574702886bd191f1c1bd2"
+hash = "b9d95aec24a1594ab1d893a1f48d9029b07ff623f341c2ef1a1d6103350a40fa"
 
 [[files]]
 file = "scripts/quarryplus_workbench.zs"
@@ -2911,7 +2931,7 @@ hash = "ddc6e1b939838d332276ac5f45966e6e47e497c41fae1ff731ffb652c3b99364"
 
 [[files]]
 file = "scripts/thermal_expansion_compactor.zs"
-hash = "a642a5ad3e88a1912dcbdbb13d9a41415eac8360669f3975a6b56b2afdcb6cf3"
+hash = "1c2ace8e8c5ad883db177af3f13e9cdd755afad638ed0492e6899f08b96196b6"
 
 [[files]]
 file = "scripts/thermal_expansion_compression_dynamo.zs"
@@ -2964,3 +2984,7 @@ hash = "d72279fffcbd9103f17deadd5ede50969654f271eb66e063d8d852f4993bfebc"
 [[files]]
 file = "servers.dat"
 hash = "66fdc869c99d2ad68005e62a02ea9e22abade61657fa01817ce724eaf352a62e"
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"

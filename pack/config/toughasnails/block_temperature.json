@@ -46,7 +46,36 @@
   {
     "state": {
       "block": "immersiveengineering:stone_device",
-      "properties": {}
+      "properties": {
+        "type": "COKE_OVEN"
+      }
+    },
+    "temperature": 20.0
+  },
+  {
+    "state": {
+      "block": "immersiveengineering:stone_device",
+      "properties": {
+        "type": "BLAST_FURNACE"
+      }
+    },
+    "temperature": 20.0
+  },
+  {
+    "state": {
+      "block": "immersiveengineering:stone_device",
+      "properties": {
+        "type": "BLAST_FURNACE_ADVANCED"
+      }
+    },
+    "temperature": 20.0
+  },
+  {
+    "state": {
+      "block": "immersiveengineering:stone_device",
+      "properties": {
+        "type": "ALLOY_SMELTER"
+      }
     },
     "temperature": 20.0
   },

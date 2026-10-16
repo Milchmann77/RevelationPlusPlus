@@ -251,4 +251,4 @@ Außer zum Bauen brauchst du den Schienenplan als Zutat für den **[Track Exchan
 
 ---
 
-<sub>Stand: Revelation++ 26w41e mit Immersive Railroading 1.10.0. Rezepte und Werte sind am Quellcode der Mod und an der Konfiguration des Packs geprüft.</sub>
+<sub>Stand: Revelation++ 26w42 mit Immersive Railroading 1.10.0. Rezepte und Werte sind am Quellcode der Mod und an der Konfiguration des Packs geprüft.</sub>

@@ -78,4 +78,4 @@ Im Kreativmodus setzt das Handbuch alle Blöcke kostenlos.
 
 ---
 
-<sub>Stand: Revelation++ 26w41e mit Immersive Railroading 1.10.0. Werte sind am Quellcode der Mod geprüft.</sub>
+<sub>Stand: Revelation++ 26w42 mit Immersive Railroading 1.10.0. Werte sind am Quellcode der Mod geprüft.</sub>

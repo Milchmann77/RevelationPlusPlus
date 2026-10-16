@@ -71,4 +71,4 @@ Was genau ein Fahrzeug braucht, verrät dir der Große Schraubenschlüssel am au
 
 ---
 
-<sub>Stand: Revelation++ 26w41e mit Immersive Railroading 1.10.0. Werte sind am Quellcode der Mod und an der Konfiguration des Packs geprüft.</sub>
+<sub>Stand: Revelation++ 26w42 mit Immersive Railroading 1.10.0. Werte sind am Quellcode der Mod und an der Konfiguration des Packs geprüft.</sub>
