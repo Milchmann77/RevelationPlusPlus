@@ -1841,8 +1841,8 @@ hash = "c2c9d866c1bc629a6b126b9ea138c9ebf1dd18afc9ce7297740ddcd7866ac7b1"
 metafile = true
 
 [[files]]
-file = "mods/milifi-26w42.jar"
-hash = "c7c164df5020c123f06330e48838144e6f9c737c645120d50b87823f85a93846"
+file = "mods/milifi-26w43.jar"
+hash = "6fa63b3ba5992bb97bff0dd5553ef002c7e3ca00b52e2d5d401665f0bbf1dbf8"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
@@ -2196,6 +2196,11 @@ metafile = true
 [[files]]
 file = "mods/randall-agriculture-pack.pw.toml"
 hash = "f9e95207e8915e3c93c6a61ef105eefd65861a555e8e8cce038333cbce524b0a"
+metafile = true
+
+[[files]]
+file = "mods/random-things.pw.toml"
+hash = "568fdad52f685a4b155371508db94667f9a198168cfd602d806409313d0276cb"
 metafile = true
 
 [[files]]
