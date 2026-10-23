@@ -473,6 +473,10 @@ file = "config/enderio/enderiopowertools.cfg"
 hash = "7210d8c923c26c1391fe1e56120b5ac12f2960780edc34357f096497fd2127a2"
 
 [[files]]
+file = "config/enderstorage.cfg"
+hash = "a88041eeaa8906494e56ce57355e32c7eb6c9250f9ca86f9493017c726b5037c"
+
+[[files]]
 file = "config/energyconverters.cfg"
 hash = "48a12e34f2c3d516f8ead93f03003ac9919b62ad061a22c9dc996df17622cff9"
 
@@ -1842,7 +1846,7 @@ metafile = true
 
 [[files]]
 file = "mods/milifi-26w43.jar"
-hash = "6fa63b3ba5992bb97bff0dd5553ef002c7e3ca00b52e2d5d401665f0bbf1dbf8"
+hash = "a52448dc130df11d6aade3ea10703c5514ea14df20c3d344b19c440593f3ca01"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
@@ -2989,3 +2993,7 @@ hash = "d72279fffcbd9103f17deadd5ede50969654f271eb66e063d8d852f4993bfebc"
 [[files]]
 file = "servers.dat"
 hash = "66fdc869c99d2ad68005e62a02ea9e22abade61657fa01817ce724eaf352a62e"
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
