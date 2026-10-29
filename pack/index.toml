@@ -847,6 +847,14 @@ file = "config/tconstruct.cfg"
 hash = "75a4579cf03c9cc17efa1e41f5c6a5c61f7eccb2e0b3e6de3b32aec6250b68ab"
 
 [[files]]
+file = "config/tellme/blocks-csv_2026-10-28_18.38.56.csv"
+hash = "4d4ba77a75cd4d9debfd24e6ac9081705c8d573cb06388411473994dadba24f6"
+
+[[files]]
+file = "config/tellme/items-csv_2026-10-28_18.39.01.csv"
+hash = "766510755e038aec7c1c84a61c9dd93cf1fb14866ed1756c69c8e27101069da0"
+
+[[files]]
 file = "config/teslacorelib.cfg"
 hash = "f9c0bca670b6925883f36675dfa82f24939bc5601af2f36e422381f9ef3dff77"
 
@@ -1845,8 +1853,8 @@ hash = "c2c9d866c1bc629a6b126b9ea138c9ebf1dd18afc9ce7297740ddcd7866ac7b1"
 metafile = true
 
 [[files]]
-file = "mods/milifi-26w43.jar"
-hash = "a52448dc130df11d6aade3ea10703c5514ea14df20c3d344b19c440593f3ca01"
+file = "mods/milifi-26w44.jar"
+hash = "cfd50c1c6aeb9a1c4b03eaecf19b630768a350662b32a9f91d46c10e9ed38c32"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
@@ -2993,3 +3001,7 @@ hash = "d72279fffcbd9103f17deadd5ede50969654f271eb66e063d8d852f4993bfebc"
 [[files]]
 file = "servers.dat"
 hash = "66fdc869c99d2ad68005e62a02ea9e22abade61657fa01817ce724eaf352a62e"
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
