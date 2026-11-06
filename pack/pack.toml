@@ -1,12 +1,12 @@
 name = "Revelation++"
 author = "Milchmann77"
-version = "26w44b"
+version = "26w45"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2f7fc20cc6843e745b268e1cb63c389e7689c9c778a9e2df7163658b1aedab99"
+hash = "c7ecae5100d68d4324fc74d3b6e8ef40034da15213749609355956c1c1d10e9a"
 
 [versions]
 forge = "14.23.5.2855"
