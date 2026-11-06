@@ -1489,6 +1489,11 @@ hash = "eafb0b5ea70aa40fd93e93331e0a4d59708b9a7502297a3ece67a3c83813f9a2"
 metafile = true
 
 [[files]]
+file = "mods/fakename.pw.toml"
+hash = "18e18f18c81c9739ff5549ce894da9dde7bef5fce626f0f894bc926e3b7b0791"
+metafile = true
+
+[[files]]
 file = "mods/fastworkbench.pw.toml"
 hash = "d856a3027bb9f9d54c0ea2e02e6150510eeebd240bbb240779cdf0c27607110b"
 metafile = true
@@ -1854,7 +1859,7 @@ metafile = true
 
 [[files]]
 file = "mods/milifi-26w45.jar"
-hash = "89ca870d61336ec14ea00a374746a21e3b9561614366aceab2ad14ac1b154657"
+hash = "3595226b9342042b9657f1fcc4dc7e314579ed723a9847ea5b6de2fd3b51a985"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"

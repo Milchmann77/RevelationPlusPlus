@@ -1,0 +1,13 @@
+name = "Fakename"
+filename = "Fakename MC1.12.2 v1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92ba948a060048074039d4af21152abde5d9f0d6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2735802
+project-id = 256838
