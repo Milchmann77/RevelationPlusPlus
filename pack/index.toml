@@ -30,7 +30,7 @@ hash = "eb33046fe56cf8b13791db76ace66b45ff39574b24efece91bb4026d02013487"
 
 [[files]]
 file = "config/GalaxySpace/core.conf"
-hash = "b179b16fe89fd0593bfff973260b64d4eb7cd5b19530f4508f8740162d06db5e"
+hash = "bbebae5677d7dd47e4ecad41c61a055ee0d37056b3b350d90ed57eb5f87aa538"
 
 [[files]]
 file = "config/GalaxySpace/dimensions.conf"
@@ -1858,8 +1858,8 @@ hash = "c2c9d866c1bc629a6b126b9ea138c9ebf1dd18afc9ce7297740ddcd7866ac7b1"
 metafile = true
 
 [[files]]
-file = "mods/milifi-26w45.jar"
-hash = "d1b36a1544a4642795ee7b60c3e1497a667b850003f183e102e9e3c79ee390bf"
+file = "mods/milifi-26w46.jar"
+hash = "7dd0a989077995328ba519bd26ec2dee57a98e96e5b19389146c2469250ebc74"
 
 [[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
@@ -3006,3 +3006,7 @@ hash = "d72279fffcbd9103f17deadd5ede50969654f271eb66e063d8d852f4993bfebc"
 [[files]]
 file = "servers.dat"
 hash = "66fdc869c99d2ad68005e62a02ea9e22abade61657fa01817ce724eaf352a62e"
+
+[[files]]
+file = "umwandlung-bericht.txt"
+hash = "ae5445b8c87355d8015f701920d05c394c4de42878c2e08d2db8611a7b308ffc"
